@@ -1,0 +1,14 @@
+select distinct substepPrinciple from history_2015fall;
+
+
+null
+independent_events
+complement_theorem
+addition_theorem
+de_morgan
+addition_theorem_three_events
+mutually_exclusive_events
+total_probability_theorem
+conditional_probability
+bayes_rule
+conditional_independent_events

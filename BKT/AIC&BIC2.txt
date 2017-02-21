@@ -1,0 +1,210 @@
+run: ./trainhmm -s 1.1 -m 1 -p 1 pyrenees-bkt-input_independent_events.txt model.txt predict.txt>abc.txt
+---------------------------------------------------------------------------------
+independent_events
+
+trainhmm starting...
+input read, nO=2, nG=212, nK=1, nI=1089
+skill    0, seq  212, dat     1089, iter# 11 p(O|param)=     755.5802422 >>     672.5844390, conv=1
+trained model LL=    672.5844390 (    672.5844390), AIC=1353.168878, BIC=1373.140939, RMSE=0.461101 (0.461101), Acc=0.703398 (0.703398)
+timing: overall 0.000000 seconds, read 0.001375, fit 0.003057, predict 0.001608
+
+SolverId	1.1
+nK	1
+nG	212
+nS	2
+nO	2
+nZ	1
+Null skill ratios	  1.0000000	  0.0000000
+0	independent_events
+PI	0.0576352621	0.9423647379
+A	1.0000000000	0.0000000000	0.2997887316	0.7002112684
+B	0.7000000000	0.3000000000	0.1775747275	0.8224252725
+
+---------------------------------------------------------------------------------
+complement_theorem
+
+trainhmm starting...
+input read, nO=2, nG=212, nK=1, nI=9994
+skill    0, seq  212, dat     9994, iter# 13 p(O|param)=    4126.6592147 >>    3856.9260643, conv=1
+trained model LL=   3856.9260643 (   3856.9260643), AIC=7721.852129, BIC=7750.691089, RMSE=0.336772 (0.336772), Acc=0.867420 (0.867420)
+timing: overall 0.000000 seconds, read 0.012104, fit 0.038992, predict 0.013876
+
+SolverId	1.1
+nK	1
+nG	212
+nS	2
+nO	2
+nZ	1
+Null skill ratios	  1.0000000	  0.0000000
+0	complement_theorem
+PI	0.9429325617	0.0570674383
+A	1.0000000000	0.0000000000	0.0277792143	0.9722207857
+B	0.8810509891	0.1189490109	0.3000000000	0.7000000000
+
+---------------------------------------------------------------------------------
+addition_theorem
+
+trainhmm starting...
+input read, nO=2, nG=206, nK=1, nI=1578
+skill    0, seq  206, dat     1578, iter# 15 p(O|param)=     998.2467062 >>     967.7735397, conv=1
+trained model LL=    967.7735397 (    967.7735397), AIC=1943.547079, BIC=1965.002733, RMSE=0.461208 (0.461208), Acc=0.650824 (0.650824)
+timing: overall 0.000000 seconds, read 0.001982, fit 0.006529, predict 0.002261
+
+SolverId	1.1
+nK	1
+nG	206
+nS	2
+nO	2
+nZ	1
+Null skill ratios	  1.0000000	  0.0000000
+0	addition_theorem
+PI	0.2722300279	0.7277699721
+A	1.0000000000	0.0000000000	0.2202951216	0.7797048784
+B	0.7840718007	0.2159281993	0.3000000000	0.7000000000
+
+---------------------------------------------------------------------------------
+de_morgan
+
+trainhmm starting...
+input read, nO=2, nG=208, nK=1, nI=1847
+skill    0, seq  208, dat     1847, iter#  6 p(O|param)=    1225.1474372 >>    1181.7646075, conv=1
+trained model LL=   1181.7646075 (   1181.7646075), AIC=2371.529215, BIC=2393.614487, RMSE=0.473493 (0.473493), Acc=0.642664 (0.642664)
+timing: overall 0.000000 seconds, read 0.002318, fit 0.003399, predict 0.002556
+
+SolverId	1.1
+nK	1
+nG	206
+nS	2
+nO	2
+nZ	1
+Null skill ratios	  1.0000000	  0.0000000
+0	addition_theorem
+PI	0.2722300279	0.7277699721
+A	1.0000000000	0.0000000000	0.2202951216	0.7797048784
+B	0.7840718007	0.2159281993	0.3000000000	0.7000000000
+
+---------------------------------------------------------------------------------
+addition_theorem_three_events
+
+trainhmm starting...
+input read, nO=2, nG=207, nK=1, nI=1506
+skill    0, seq  207, dat     1506, iter#  9 p(O|param)=     788.4088421 >>     778.1088999, conv=1
+trained model LL=    778.1088999 (    778.1088999), AIC=1564.217800, BIC=1585.486650, RMSE=0.412063 (0.412063), Acc=0.755644 (0.755644)
+timing: overall 0.000000 seconds, read 0.001926, fit 0.005192, predict 0.002246
+
+SolverId	1.1
+nK	1
+nG	207
+nS	2
+nO	2
+nZ	1
+Null skill ratios	  1.0000000	  0.0000000
+0	addition_theorem_three_events
+PI	0.4443989863	0.5556010137
+A	1.0000000000	0.0000000000	0.3455559213	0.6544440787
+B	0.8683769998	0.1316230002	0.3000000000	0.7000000000
+
+---------------------------------------------------------------------------------
+mutually_exclusive_events
+
+trainhmm starting...
+input read, nO=2, nG=205, nK=1, nI=1919
+skill    0, seq  205, dat     1919, iter#  8 p(O|param)=    1200.4658602 >>    1181.4115118, conv=1
+trained model LL=   1181.4115118 (   1181.4115118), AIC=2370.823024, BIC=2393.061262, RMSE=0.461035 (0.461035), Acc=0.682647 (0.682647)
+timing: overall 0.000000 seconds, read 0.002380, fit 0.005547, predict 0.002803
+
+SolverId	1.1
+nK	1
+nG	205
+nS	2
+nO	2
+nZ	1
+Null skill ratios	  1.0000000	  0.0000000
+0	mutually_exclusive_events
+PI	0.4588476229	0.5411523771
+A	1.0000000000	0.0000000000	0.3801258672	0.6198741328
+B	0.7096243401	0.2903756599	0.1528760231	0.8471239769
+
+---------------------------------------------------------------------------------
+total_probability_theorem
+
+trainhmm starting...
+input read, nO=2, nG=212, nK=1, nI=1030
+skill    0, seq  212, dat     1030, iter# 26 p(O|param)=     661.6018635 >>     647.8458128, conv=1
+trained model LL=    647.8458128 (    647.8458128), AIC=1303.691626, BIC=1323.440882, RMSE=0.467568 (0.467568), Acc=0.676699 (0.676699)
+timing: overall 0.000000 seconds, read 0.001381, fit 0.007130, predict 0.001537
+
+SolverId	1.1
+nK	1
+nG	212
+nS	2
+nO	2
+nZ	1
+Null skill ratios	  1.0000000	  0.0000000
+0	total_probability_theorem
+PI	0.4528558626	0.5471441374
+A	1.0000000000	0.0000000000	0.8781661412	0.1218338588
+B	0.7000000000	0.3000000000	0.0984857776	0.9015142224
+
+---------------------------------------------------------------------------------
+conditional_probability
+
+trainhmm starting...
+input read, nO=2, nG=196, nK=1, nI=1488
+skill    0, seq  196, dat     1488, iter# 24 p(O|param)=    1053.2584793 >>     993.2922578, conv=1
+trained model LL=    993.2922578 (    993.2922578), AIC=1994.584516, BIC=2015.805268, RMSE=0.487042 (0.487042), Acc=0.602151 (0.602151)
+timing: overall 0.000000 seconds, read 0.001932, fit 0.009507, predict 0.002194
+
+SolverId	1.1
+nK	1
+nG	196
+nS	2
+nO	2
+nZ	1
+Null skill ratios	  1.0000000	  0.0000000
+0	conditional_probability
+PI	0.7255443679	0.2744556321
+A	1.0000000000	0.0000000000	0.0770658132	0.9229341868
+B	0.7000000000	0.3000000000	0.3000000000	0.7000000000
+
+---------------------------------------------------------------------------------
+bayes_rule
+
+trainhmm starting...
+input read, nO=2, nG=187, nK=1, nI=650
+skill    0, seq  187, dat      650, iter# 11 p(O|param)=     472.8073300 >>     444.2063818, conv=1
+trained model LL=    444.2063818 (    444.2063818), AIC=896.412764, BIC=914.320653, RMSE=0.495150 (0.495150), Acc=0.573846 (0.573846)
+timing: overall 0.000000 seconds, read 0.001516, fit 0.003354, predict 0.001748
+
+SolverId	1.1
+nK	1
+nG	187
+nS	2
+nO	2
+nZ	1
+Null skill ratios	  1.0000000	  0.0000000
+0	bayes_rule
+PI	0.5246718314	0.4753281686
+A	1.0000000000	0.0000000000	0.1004993678	0.8995006322
+B	0.7000000000	0.3000000000	0.3000000000	0.7000000000
+
+---------------------------------------------------------------------------------
+conditional_independent_events
+
+trainhmm starting...
+input read, nO=2, nG=158, nK=1, nI=1537
+skill    0, seq  158, dat     1537, iter#  7 p(O|param)=    1000.7837005 >>     963.2491367, conv=1
+trained model LL=    963.2491367 (    963.2491367), AIC=1934.498273, BIC=1955.848624, RMSE=0.466955 (0.466955), Acc=0.651919 (0.651919)
+timing: overall 0.000000 seconds, read 0.002115, fit 0.003660, predict 0.002329
+
+SolverId	1.1
+nK	1
+nG	158
+nS	2
+nO	2
+nZ	1
+Null skill ratios	  1.0000000	  0.0000000
+0	conditional_independent_events
+PI	0.4525900035	0.5474099965
+A	1.0000000000	0.0000000000	0.2007485109	0.7992514891
+B	0.7166181604	0.2833818396	0.2171430935	0.7828569065
