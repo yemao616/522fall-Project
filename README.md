@@ -1,2 +1,5 @@
-# 522fall-Project
-This repository is created to put the code and files for CSC 522 term project.
+# Predicting Student Knowledge Tracing During Skill Acquisition
+
+This project is an effort to model student’s changing knowledge during skill acquisition as they learn different probability concepts using an ITS called Pyrenees. In this project we have used two variations of Bayesian Knowledge Tracing, Deep Knowledge Tracing and Performance Factor Analysis to generate the results. Further we compare the results from each of the methods and reason out which algorithm performs better on this dataset.
+
+In this project we try to estimate the student’s changing knowledge state as they practice a complex cognitive skill and to predict student’s performance efficiently. This is extremely important as this student modeling process allows the tutor to monitor the student’s knowledge and tailor the sequence of practice exercises according to the student’s needs. It can possibly generate a better ITS by suggesting the skills where the students are facing more difficulties thereby focusing the ITS on those skills. Student modeling forms the core of any good Intelligent Tutoring System as it influences the pedagogical model to select better subsequent tutoring strategies, steps or actions.
